@@ -27,8 +27,9 @@
         <div class="navbar-nav">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#portofolio">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#article">Article</a>
+            <a href="#contact">Contact</a>
         </div>
 
         <div class="navbar-extra">
@@ -62,32 +63,123 @@
                 <p>I'm Muhammad Anwar, currently I'm creating a Personal Website to complete Technical Project Assignment (TPA) #1 - Personal Website. In my spare time, I study front-end development with HTML, CSS & JavaScript. My goal is to write useful applications.</p>
             </div>
         </div>
-
-
-        <!-- Portofolio Section Start -->
-        <section id="portfolio" class="portfolio">
-            <h2>Portofolio <span>Me</span></h2>
-            <p>I Love What I Do</p>
-
-            <div class="row">
-                <div class="menu-card">
-                    <img src="img/portfolio/pf (1).jpg" alt="portfolio-1">
-                </div>
-                <div class="menu-card">
-                    <img src="img/portfolio/pf (2).jpg" alt="portfolio-2">
-                </div>
-                <div class="menu-card">
-                    <img src="img/portfolio/pf (3).jpg" alt="portfolio-3">
-                </div>
-                <div class="menu-card">
-                    <img src="img/portfolio/pf (4).jpg" alt="portfolio-4">
-                </div>
-            </div>
-        </section>
-        <!-- Portofolio Section Start -->
     </section>
     <!-- About Section End-->
 
+
+    <!-- Portofolio Section Start -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portofolio</h2> <!--<span>Me</span></h2> -->
+        <p>I Love What I Do</p>
+
+         <div class="row">
+            <div class="portfolio-card">
+                <img src="img/portfolio/pf(1).jpg" alt="portfolio-1">
+                <h3 class="portfolio-card-title">Illustration</h3>
+                <p class="portfolio-card-p">HTML</p>
+                <p class="portfolio-card-p">CSS</p>
+                <p class="portfolio-card-p">JavaScript</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="img/portfolio/pf(2).jpg" alt="portfolio-2">
+                <h3 class="portfolio-card-title">Photography</h3>
+                <p class="portfolio-card-p">HTML</p>                    <p class="portfolio-card-p">CSS</p>
+                <p class="portfolio-card-p">JavaScript</p>
+                </div>
+            <div class="portfolio-card">
+                <img src="img/portfolio/pf(3).jpg" alt="portfolio-3">
+                <h3 class="portfolio-card-title">Illustration</h3>
+                <p class="portfolio-card-p">HTML</p>
+                <p class="portfolio-card-p">CSS</p>
+                <p class="portfolio-card-p">JavaScript</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="img/portfolio/pf(4).jpg" alt="portfolio-4">                    <h3 class="portfolio-card-title">Mobile</h3>
+                <p class="portfolio-card-p">HTML</p>
+                <p class="portfolio-card-p">CSS</p>
+                <p class="portfolio-card-p">JavaScript</p>
+            </div>
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Article Start -->
+    <section id="article" class="article">
+        <h2>Article</h2>
+
+        <div class="row">
+            <div class="article-img">
+                <img src="img/article/install-yii2-via-composer-1024x738.png" alt="article">
+            </div>
+            <div class="content">
+                <h3>How to install yii2 advanced composer</h3>
+                <p>You only have to do this once.<p>
+                    <ol>
+                        <li>Open the yii2 installation folder. For example “C:\xampp\htdocs\yii2-test”, then look for a file with the name “init. ...</li>
+                        <li>Create a new database and customize the Components configuration ['db'] in “common/config/main-local. php”. ...</li>
+                        <li>Open CMD, change it to yii2 installation directory.</li>
+                    </ol>
+            </div>
+            <div class="row">
+                <div class="article-img">
+                    <img src="img/article/add-feather-icon.png" alt="article">
+                </div>
+                <div class="content">
+                    <h3>How to add feather icons in html</h3>
+                    <p>Start with this <span>CodePen Template</span> to begin prototyping with Feather in the browser.</p>
+                </div>
+        </div>
+    </section>
+    <!-- Article End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="contact">
+        <h2><span>Contact</span> US</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa illum quidem sapiente provident libero, accusamus nostrum molestiae ea perspiciatis qui deserunt aliquid fugit, cupiditate dolores ipsum nemo officiis in?</p>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.6529527678!2d106.68942805592759!3d-6.22938669516279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1680636798686!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="phone number">
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact End -->
+    
+    <!-- Footer Start -->
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/anwarsidiiq91/"><i data-feather="instagram"></i></a>
+            <a href="https://twitter.com/anwarsidiiq"><i data-feather="twitter"></i></a>
+            <a href="https://www.facebook.com/anwarsidiiq2"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#article">Article</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">anwarsidiiq</a>. | &copy; 2023</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
 
     <!-- Script Feather -->
     <script>feather.replace()</script>
